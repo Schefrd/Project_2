@@ -48,10 +48,11 @@ while True:
         cow_txt = "cow"
     else:
         cow_txt = "cows"
-
+    # vysledek
     print(bulls, bull_txt, ",", cows, cow_txt)
     print("----------------------------------------")
 
     if bulls == 4:
         print("Congrats! Secret number was ", tajne, "and you hit it on the ", pokusy, ". try.")
         break
+
